@@ -13,9 +13,10 @@ header {
     flex-wrap: wrap;
     height: 500px;
     background-image: url('../images/plant-background.png');
-    background-size: cover;
     background-position: center;
-    filter: opacity(70%)
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(70%);
   }
   
   header h1 {
@@ -24,7 +25,6 @@ header {
     margin-top: 30px;
     font-size: 36px;
     color: black;
-
   }
   
   header a {
