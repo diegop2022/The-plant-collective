@@ -33,14 +33,11 @@ header nav ul li a {
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-=======
 .plant-image {
     max-width: 50%;
     max-height: 50%;
 }
 
->>>>>>> plant-page-html
 .light, .water, .soil, .about {
     margin: 50px;
     text-align: center;
@@ -49,9 +46,6 @@ header nav ul li a {
 .placeholder-imgs {
     margin: 25px;
     height: 250px;
-<<<<<<< HEAD
-    width: 250px;
-=======
     width: 275px;
 }
 
@@ -64,5 +58,4 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
->>>>>>> plant-page-html
 }
