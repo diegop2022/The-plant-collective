@@ -1,1 +1,154 @@
-/* test test */ 
+
+:root {
+    --header-color: #AFE1AF;
+    --btn-color: #9F2B68;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Header */
+
+a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    background-color: var(--header-color);
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 43px;
+    padding: 10px;
+}
+
+.logo a {
+    color: black;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.nav-bar li a {
+    color: white;
+}
+
+.nav-bar li a:hover {
+    color: black;
+}
+
+/* End Header */
+
+/* Main Body */
+
+.care-head {
+    text-align: center;
+    font-size: 30px;
+    padding: 80px 0 0 0;
+}
+
+.factors {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0 0 0;
+}
+
+.needs {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 0 0;
+}
+
+.needs li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.needs-imgs {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0 0 0;
+}
+
+.needs-imgs li {
+    list-style: none;
+    display: inline-block;
+}
+
+.needs-imgs img {
+    width: auto;
+    max-height: 300px;
+    padding: 0 0 0 140px;
+}
+
+.needs-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.needs-desc li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 30px;
+    margin: 15px;
+}
+
+footer {
+    background-color: var(--header-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 40px
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles li {
+    font-size: 30px;
+    list-style: none;
+}
+
+.articles li a {
+    color: black;
+}
+
+
+
