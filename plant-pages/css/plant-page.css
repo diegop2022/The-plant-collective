@@ -33,6 +33,11 @@ header nav ul li a {
     font-size: 30px;
 }
 
+.plant-image {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .light, .water, .soil, .about {
     margin: 50px;
     text-align: center;
