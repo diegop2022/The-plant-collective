@@ -1,24 +1,74 @@
+:root {
+    --header-color: #AFE1AF;
+    --btn-color: #9F2B68;
+}
+
 body, body a{
     color: black;
     text-decoration: none;
     font-size: 24px;
-    margin: 50px;
+    margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
 }
 
-header a {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    background-color: var(--header-color);
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 43px;
+    padding: 10px;
+}
+
+.logo a {
+    color: black;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.nav-bar li a {
+    color: white;
+}
+
+.nav-bar li a:hover {
+    color: black;
+}
+
+section {
+    margin-top: 50px;
+}
+
+section a {
     text-decoration: none;
     font-size: 48px;
 }
 
-header nav {
+section nav {
     float: center;
     margin: 7px 0;
 }
 
-header nav ul {
+section nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,7 +77,7 @@ header nav ul {
     padding: 20px 50px;
 }
 
-header nav ul li a {
+section nav ul li a {
     color: black;
     margin-right: 25px;
     font-size: 30px;
@@ -58,12 +108,10 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin:0;
 }
 
 footer {
     background-color: var(--header-color);
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: 50px;
+    padding: 25px;
 }
