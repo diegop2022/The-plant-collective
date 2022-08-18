@@ -59,3 +59,11 @@ header nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+footer {
+    background-color: var(--header-color);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+}
