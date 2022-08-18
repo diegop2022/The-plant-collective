@@ -124,37 +124,41 @@ header {
 
 footer {
     background-color: var(--header-color);
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
+    margin-top: 50px;
+    align-items: center;
 }
 
-footer h1 {
-    text-align: center;
-    font-size: 40px
+.helpful {
+    margin-left: 655px;
+}
+
+.placeholder-imgs {
+    margin: 25px;
+    height: 250px;
+    width: 275px;
+}
+
+.article-titles {
+    font-size: small;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .articles {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-bottom: 0;
 }
 
-.articles li {
-    font-size: 30px;
-    list-style: none;
-}
 
-.articles li a {
-    color: black;
-}
-
-.fiddle-style {
+.plant-row-1, .plant-row-2, .plant-row-3, .plant-row-4, .plant-row-5 {
     display: flex;
-    justify-content: center;
-    font-size: 40px;
-    padding: 50px 0 0 0
+    flex-wrap: wrap;
+    align-items: center;
 }
-
-
-
