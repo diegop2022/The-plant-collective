@@ -67,6 +67,33 @@
             <li><a href="#">Article 2</a></li>
             <li><a href="#">Article 3</a></li>
         </ul>
+
+    <!--Below is script for the weather api provided by Visual Crossing-->
+
+    <div class="weatherWidget" ></div>
+
+        <script>
+            window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+            window.weatherWidgetConfig.push({
+                selector:".weatherWidget",
+                apiKey:"NQVTZ22XVZ8JLU7E9J224FBWC", // API Key from Visual Crossing Weather
+                location:"", // "" will display weather based on user's location
+                unitGroup:"us", // display Fahrenheit
+                forecastDays:10,
+                title: "Your 10 Day Weather Forecast", 
+                showTitle:true, 
+                showConditions:true,
+            });
+           // script below is provided by Visual Crossing Weather to call on the widget
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+
+         </script>
+
     </footer>
     <!--End of Footer-->
 </body>
